@@ -1,0 +1,26 @@
+{
+  "name": "awsmimirldap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "prettier-check": "prettier --check .",
+    "prettier-format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/ldapjs": "^3.0.6",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.543.0",
+    "ldapjs": "^3.0.7"
+  }
+}
